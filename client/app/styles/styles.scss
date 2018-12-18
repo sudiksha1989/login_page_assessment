@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import 'vendor/normalize';
+
+
+.login-htm{
+    margin-top: 50px;
+    margin-bottom: 47px;
+    margin-left: 30%;
+    width: 40%;
+    height: 390px;
+    box-shadow: 5px 4px 14px #4C4C4C;
+    background-color: #0c5b4c;
+  }
+
+.signin-htm ,.signup-htm{
+    padding: 20px 100px;
+    height: 200px;
+    position: absolute;
+}
+button{
+  margin: 8px 0;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#login{
+    background-color: #0c5b4c;
+}
+input[type=text] ,input[type=password],input[type=email] {
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+  }
+
+  .alert {
+    position: absolute;
+    padding: 20px;
+    width: 37%;
+    margin-left: 30%;
+    background-color: #aaaaaa;
+    box-shadow: 5px 4px 14px #4C4C4C;
+    color: black;
+    -webkit-animation-duration: 10s;animation-duration: 10s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+  }
+ 
+
+  @-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ 
+ @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ 
+ .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+ }
